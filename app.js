@@ -27,7 +27,6 @@ db.once('open', function(){
 // Routes
 app.use(routes);
 
-
 // Error handling
 app.use(function(req, res, next){
 	var err = new Error("Not Found");

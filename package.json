@@ -11,16 +11,6 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.18",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theNAFIZ/todo-list-rest-api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/theNAFIZ/todo-list-rest-api/issues"
-  },
-  "homepage": "https://github.com/theNAFIZ/todo-list-rest-api#readme"
+    "mongoose": "^5.9.18"
+  }
 }
