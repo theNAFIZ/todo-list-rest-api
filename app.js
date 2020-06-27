@@ -4,12 +4,13 @@ var express = require('express');
 var app = express();
 var routes = require('./routes');
 var mongoose = require('mongoose');
+const morgan = require('morgan');
 var jsonParser = require('body-parser').json;
 mongoose.set('useUnifiedTopology', true);
 
 app.use(jsonParser());
 
-
+app.use(morgan('dev'));
 // Database Connection
 
 mongoose.connect("mongodb://localhost:27017/todolist",{useNewUrlParser: true});
